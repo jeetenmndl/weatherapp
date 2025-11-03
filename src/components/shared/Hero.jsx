@@ -3,7 +3,7 @@ import Button from "./Button"
 const Hero = () => {
 
   return (
-    <section className="grid grid-cols-2 gap-6 border border-purple-500 rounded-lg mx-20 my-10 ">
+    <section className="grid grid-cols-2 gap-6  rounded-lg mx-20 my-10 ">
 
         {/* text part  */}
         <div className="pt-40 pl-8">
