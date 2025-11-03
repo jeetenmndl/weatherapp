@@ -3,10 +3,10 @@ import Button from "./Button"
 const Hero = () => {
 
   return (
-    <section className="grid grid-cols-2 gap-6 border border-purple-500 rounded-lg mx-20 my-10 ">
+    <section className="grid grid-cols-1 lg:grid-cols-2 gap-6 rounded-lg mx-4 lg:mx-20 my-4 lg:my-10 ">
 
         {/* text part  */}
-        <div className="pt-40 pl-8">
+        <div className="pt-20 lg:pt-40 lg:pl-8">
             <h1 className="text-5xl font-extrabold mb-4 ">Know Before You Go</h1>
             <p className="text-lg mb-4">Get Accurate, real time, weather forcasts for any location worldwide. Plan Your activities with confidence and stay informed.</p>
             <Button text="Show Weather" />
